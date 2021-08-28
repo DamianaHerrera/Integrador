@@ -1,6 +1,6 @@
 @font-face{
   font-family:Ramona;
-  src: url(/font/Ramona-Bold.ttf);
+  src: url(/font/Ramona-Light.ttf);
 }
 
 *{
@@ -15,67 +15,112 @@
 
 .header{
   height: 100vh;
-  background-color: blanchedalmond;
+  background-color:#FBDA57;
  }
 
 .header h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 200px;
+  padding-top: 50px;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 
 .img-nav{
   filter:brightness(1.1);
-  mix-blend-mode:hard-light;
+  mix-blend-mode:multiply;
   display: flex;
   justify-content:left;
-  
-  
+  padding:10px;
   }
 
 .navbar{
   width: 100%;
   height: 10vh;
-  background-color:black;
+  background-color:#FBDA57;
   display: flex;
   justify-content:space-around;
 }
-
-/* .btn-nav{
-  width: 50%;
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-  list-style: none;
-  } */
 
   .ul-nav{
     width: 50%;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    list-style: none;
+   
   }
 
   .item{
     text-align: center;
     border:none;
     cursor: pointer;
-     color: white;
+     color:black;
     background-color: transparent;
     font-size: 1rem;
     padding: 20px;
-    list-style: none;
-  }
+    font-weight: 800;
+    }
 
   .item:hover{
-    text-decoration: underline;
-    text-decoration-color: #FBDA57;
     transform: scale(1,1);
     line-height: 5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+   }
+
+   .container{
+     width: 100%;
+     height: 70vh;
+     display: flex;
+     justify-content:space-around;
+     }
+
    
-    
-    
+   .img-bio{
+     padding: 50px 0px  0px 30px;
+     margin-top: 60px;
+   }
+
+  .texto{
+    width: 50%;
+    height: 50vh;
+    margin-top: 120px;
+  }
+
+  .texto p{
+   font-size: 1.2rem;
+   }
+
+   .texto h2{
+     text-align: center;
+     margin-bottom:30px;
+     font-size: 2rem;
+    }
+
+    .discos{
+      width: 100%;
+      height: 70vh;
+      background-color: #2E4053;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .discos img{
+      height: 200px;
+      width: 200px;
+     }
+
+    .card1{
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+    }
+
+    .card2{
+      flex-direction: column;
+      display: flex;
+      align-items: center;
     }
