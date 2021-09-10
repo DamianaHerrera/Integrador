@@ -199,6 +199,7 @@
       -webkit-box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75);
       -moz-box-shadow: 1px 0px 23px 0px rgba(0, 0, 0, 0.75);
       border-radius: 10%;
+      
 
       }
 
@@ -236,8 +237,7 @@
         background-color: #181a19;
         position: fixed;
         bottom: 0;
-
-        }
+      }
 
         .footer ul{
           list-style: none;
@@ -311,6 +311,7 @@
                  font-size: 10px;
                }
 
+             
               .card-tienda img{
                 height: 100px;
                 width: 100px;
@@ -319,7 +320,7 @@
                .card-tienda{
                 width: 30%;
                 height: 250px;
-                margin-top: 10px;
+                margin-bottom: 70px;
 
                }
 
@@ -356,6 +357,38 @@
                    margin-top: 8px;
                    }
 
+                }
+
+                @media (max-width: 555px ){
+                  .header h1{
+                    font-size: 3.1em;
+                    padding-top: 20px;
+                  }
+
+                  .texto h2{
+                    font-size: 2.2em;
+                    padding-top: 70px;
+                  }
+
+                  .item{
+                    font-size:0.70rem;
+                  }
+
+                  .texto{
+                    margin-top: -40px;
+                  }
+
+                  .texto p{
+                    font-size: 11px;
+                  }
+
+                  .discos{
+                    margin-top: -130px;
+                  }
+
+                  .card-tienda button{
+                   width: 70%;
+                  }
                 }
 
 
